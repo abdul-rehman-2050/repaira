@@ -6,11 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="footer, address, phone, icons" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
-
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 	<title>Repaira</title>
 	<!-- add bootstrap css file -->
@@ -250,6 +248,7 @@
 		</div>
 	</div>
 
+	
 	<!-- Contact form -->
 	<div class="contact-form" id="contact">
 		<div class="container">
@@ -277,6 +276,34 @@
 			</form>
 		</div>
 	</div>
+
+	<!--Sign In Form-->
+	<h2 class="login">Sign Up</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+	<br>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="psw"><b>Password</b></label>
+	<br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" > Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+	<!--Footer-->
+	
 	<footer class="footer-distributed">
 
 		<div class="footer-left">
