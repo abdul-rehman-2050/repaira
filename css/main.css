@@ -68,7 +68,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	width: 50%;
 	line-height: 1.5;
 }
-.description button{
+.description a{
 	border:1px  solid #F97300;
 	background:#F97300;
 	color:rgb(255, 255, 255);
@@ -130,7 +130,7 @@ input[type=text], input[type=password] {
 	width: 12%;
   }
   
-  button:hover {
+ button:hover, a:hover {
 	opacity: 0.8;
   }
   
