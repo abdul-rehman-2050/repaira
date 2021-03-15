@@ -68,7 +68,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	width: 50%;
 	line-height: 1.5;
 }
-.description button{
+.description a{
 	border:1px  solid #F97300;
 	background:#F97300;
 	color:rgb(255, 255, 255);
@@ -105,8 +105,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color:#888;
 }
 
-
-  
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
 	span.psw {
