@@ -2,9 +2,9 @@
 
 [Main Script]
 
-Project: QuickFix - Multipurpose Servicing and Repairing HTML Template
-Version: 1.3
-Author : themelooks.com
+Project: Mobile and Tablet Responsive 
+Version: 1.0
+Author : Repair Mobile
 
 */
 
