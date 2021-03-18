@@ -1,245 +1,926 @@
-
-
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html dir="ltr" lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="footer, address, phone, icons" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-	<title>Repaira</title>
-	<!-- add bootstrap css file -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- ==== Document Title ==== -->
+    <title>QuickFix - Multipurpose Servicing and Repairing HTML Template</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
+    <!-- ==== Favicons ==== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
 
-<style>
+    <!-- ==== Google Font ==== -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700%7CSource+Sans+Pro:300,400,500,600" rel="stylesheet">
 
-.register{
-    background: -webkit-linear-gradient(left, #F97300, #F90300);
-    margin-top: 3%;
-    padding: 3%;
-}
-.register-left{
-    text-align: center;
-    color: #fff;
-    margin-top: 4%;
-}
-.register-left input{
-    border: none;
-    border-radius: 1.5rem;
-    padding: 2%;
-    width: 60%;
-    background: #f8f9fa;
-    font-weight: bold;
-    color: #383d41;
-    margin-top: 30%;
-    margin-bottom: 3%;
-    cursor: pointer;
-}
-.register-right{
-    background: #f4f4f4;
-    border-top-left-radius: 10% 50%;
-    border-bottom-left-radius: 10% 50%;
-}
-.register-left img{
-    margin-top: 15%;
-    margin-bottom: 5%;
-    width: 25%;
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-.register-left p{
-    font-weight: lighter;
-    padding: 12%;
-    margin-top: -9%;
-}
-.register .register-form{
-    padding: 10%;
-    margin-top: 10%;
-}
-.btnRegister{
-    float: right;
-    margin-top: 10%;
-    border: none;
-    border-radius: 1.5rem;
-    padding: 2%;
-    background: #F97300;
-    color: #fff;
-    font-weight: 600;
-    width: 50%;
-    cursor: pointer;
-}
-.register .nav-tabs{
-    margin-top: 3%;
-    border: none;
-    background: #F97300;
-    border-radius: 1.5rem;
-    width: 28%;
-    float: right;
-}
-.register .nav-tabs .nav-link{
-    padding: 2%;
-    height: 34px;
-    font-weight: 600;
-    color: #fff;
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-}
-.register .nav-tabs .nav-link:hover{
-    border: none;
-}
-.register .nav-tabs .nav-link.active{
-    width: 100px;
-    color: #F97300;
-    border: 2px solid #F97300;
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-}
-.register-heading{
-    text-align: center;
-    margin-top: 8%;
-    margin-bottom: -15%;
-    color: #495057;
-}
+    <!-- ==== Font Awesome ==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- ==== Bootstrap ==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- ==== jQuery FakeLoader Plugin ==== -->
+    <link href="css/fakeLoader.min.css" rel="stylesheet">
+    
+    <!-- ==== jQuery Magnific Popup Plugin ==== -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link href="css/responsive-style.css" rel="stylesheet">
+    
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link href="css/colors/color-1.css" rel="stylesheet" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link href="css/custom.css" rel="stylesheet">
 
-</style>
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
-<div class="container register">
-                <div class="row">
-                    <div class="col-md-3 register-left">
-                        <img src="images/logos/logo_white.png" alt=""/>
-                        <h3>Welcome</h3>
-                        <p>We are offering free 30 day trial. Let's get started...</p>
-                        <input type="submit" name="" value="Login"/><br/>
-                    </div>
-                    <div class="col-md-9 register-right">
-                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Admin</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h3 class="register-heading">Apply as a Shop Owner</h3>
-                                <div class="row register-form">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control input-lg" placeholder="First Name *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="maxl">
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="gender" value="male" checked>
-                                                    <span> Male </span> 
-                                                </label>
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="gender" value="female">
-                                                    <span>Female </span> 
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                                <option>What is your Birthdate?</option>
-                                                <option>What is Your old Phone Number</option>
-                                                <option>What is your Pet Name?</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
-                                        </div>
-                                        <input type="submit" class="btnRegister"  value="Register"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <h3  class="register-heading">Apply as a Admin</h3>
-                                <div class="row register-form">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
-                                        </div>
+    
+    <!-- Preloader Start -->
+    <div class="preloader bg--color-theme"></div>
+    <!-- Preloader End -->
+    
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header class="header--section">
+            <!-- Header Topbar Start -->
+            <div class="header--topbar bg--color-dark">
+                <div class="container">
+                    <!-- Header Topbar Links Start -->
+                    <ul class="nav links float--left hidden-xxs">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                    <!-- Header Topbar Links End -->
 
+                    <!-- Header Topbar Cart Start -->
+                    <ul class="nav cart float--right">
+                        <li><a href="cart.html"><i class="fa fa-shopping-basket"></i> 3</a></li>
+                    </ul>
+                    <!-- Header Topbar Cart End -->
 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Password *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
-                                        </div>
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                                <option>What is your Birthdate?</option>
-                                                <option>What is Your old Phone Number</option>
-                                                <option>What is your Pet Name?</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="`Answer *" value="" />
-                                        </div>
-                                        <input type="submit" class="btnRegister"  value="Register"/>
-                                    </div>
-                                </div>
+                    <!-- Header Topbar Social Start -->
+                    <ul class="nav social float--right">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                    <!-- Header Topbar Social End -->
+                </div>
+            </div>
+            <!-- Header Topbar End -->
+
+            <!-- Header Navbar Top Start -->
+            <div class="header--navbar-top">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <div class="logo float--left">
+                        <div class="vc--parent">
+                            <div class="vc--child">
+                                <a href="index.html"><img src="img/logo.png" alt="Quick Fix Logo" data-rjs="2"></a>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <!-- Logo End -->
 
+                    <div class="float--right">
+                        <!-- Header Navbar Top Info Start -->
+                        <div class="header--navbar-top-info float--left">
+                            <div class="vc--parent">
+                                <div class="vc--child">
+                                    <ul class="nav">
+                                        <li>
+                                            <div class="icon text--primary">
+                                                <i class="fa fa-vcard-o"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p><a href="tel:+055997766554412">+055997766554412</a></p>
+                                                <p><a href="mailto:example@example.com">example@example.com</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon text--primary">
+                                                <i class="fa fa-home"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>114, free street,</p>
+                                                <p>Dhaka, Bangladesh.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon text--primary">
+                                                <i class="fa fa-clock-o"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>Mon - Sat (09 am to 08 pm)</p>
+                                                <p class="text--primary">(Sunday Closed)</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Header Navbar Top Info End -->
+                        
+                        <!-- Header Navbar Top Button Start -->
+                        <div class="header--navbar-top-btn float--left">
+                            <div class="vc--parent">
+                                <div class="vc--child">
+                                    <a href="index.html#appointment" class="btn btn-default">Make An Appoinment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Header Navbar Top Button End -->
+                    </div>
+                </div>
             </div>
-<!-- add Javasscript file from js file -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src='js/main.js'></script>
-			
+            <!-- Header Navbar Top End -->
+
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar" data-trigger="sticky">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div id="headerNav" class="navbar-collapse collapse float--left">
+                        <!-- Header Nav Links Start -->
+                          <ul class="header--nav-links nav navbar-nav font--secondary">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="price.html">Pricing</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+
+                    <!-- Header Navbar Search Start -->
+                    <div class="header--nav-search dropdown float--right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+
+                        <div class="dropdown-menu" data-form-validation="true">
+                            <form action="#" method="get">
+                                <input type="search" name="search" placeholder="I’m Looking For..." class="form-control" required>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Header Navbar Search End -->
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Page Header Section Start -->
+        <div class="text-center">
+            <!-- Page Title Start -->
+            <div class="page pt-4">
+                <div class="container">
+                    <h1 class="h3">New Account Setup</h1>
+                </div>
+            </div>
+            <!-- Page Title End -->
+
+        </div>
+        <!-- Page Header Section End -->
+
+        <!-- Checkout Section Start -->
+        <div class="signup--section pt-0">
+            <div class="container">
+
+                <!-- Checkout Form Start -->
+                <div class="checkout--form" data-form-validation="true">
+                    <form action="#">
+
+                        <!-- progressbar -->
+                        <ul id="progressbar">
+                            <li class="active" id="account"><strong>Account</strong></li>
+                            <li id="personal" data-step="1"></li>
+                            <li id="payment" data-step="2"></li>
+                            <li id="confirm" data-step="3"></li>
+                        </ul> <!-- fieldsets --> 
+                        
+                        <fieldset>
+                             <input type="button" name="next" class="next  action-button btn-default-fill" value="Next Step" />
+                            </fieldset>
+                        </fieldset>
+
+                        <fieldset>
+                             <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> <input type="button" name="next" class="next action-button btn-default-fill" value="Next Step" />
+                            </fieldset>
+                        </fieldset>
+                        <fieldset>
+                            <input type="button" name="previous" class="previous action-button-previous btn-default-fill" value="Previous" /> <input type="button" name="make_payment" class="next action-button btn-default-fill" value="Confirm" />
+                        </fieldset>
+
+                        <div class="row"> <!-- main row -->
+                            
+                            <div class="col-md-12 mt-4">
+                                <div class="card card--voo  card--voo__h-auto card--rounded border-0">        
+                                    <div class="card-body p-md-4">
+                                        <div class="row pt--80">
+
+                                            <h5 class="card-title col-sm-12"><span class="badge badge-colored">1</span> Personal and Business Information</h5>
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Full Name<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Stor/Business Name<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group  haslabel">
+                                                    <label>
+                                                        
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Work Email<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Mobile<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Password<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                        </div>     <!-- row -->
+                                    </div> <!-- card body -->
+                                </div> <!-- card -->   
+
+                                <div class="card card--voo  card--voo__h-auto card--rounded border-0 mt-4">        
+                                    <div class="card-body p-md-4">
+                                        <div class="row pt--80">
+                                            <h5 class="card-title col-sm-12"><span class="badge badge-colored">2</span> Store Configuration</h5>
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Store Address <em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">City<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">City<em>*</em></span>    
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">State</span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Zip Code<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">State<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Country<em>*</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Phone</span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Website</span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+                                        </div> <!-- row -->
+                                    </div> <!-- card body -->
+                                </div> <!-- card --> 
+
+                            </div> <!-- col 6 left side -->    
+
+
+                            <div class="col-md-12 mt-4">
+                                <div class="card card--voo  card--voo__h-auto card--rounded border-0">        
+                                    <div class="card-body p-md-4">
+                                        <div class="row pt--80">
+                                            <h5 class="card-title col-sm-12"><span class="badge badge-colored">2</span> Financial Info</h5>
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <select id="country" class="form-control form-control-lg" name="country">
+                                                            <option>Select Currency</option>
+                                                            <option value="EUR">Euro</option>
+                                                            <option value="GBP">United Kingdom Pounds</option>
+                                                            <option value="DZD">Algeria Dinars</option>
+                                                            <option value="ARP">Argentina Pesos</option>
+                                                            <option value="AUD">Australia Dollars</option>
+                                                            <option value="ATS">Austria Schillings</option>
+                                                            <option value="BSD">Bahamas Dollars</option>
+                                                            <option value="BBD">Barbados Dollars</option>
+                                                            <option value="BEF">Belgium Francs</option>
+                                                            <option value="BMD">Bermuda Dollars</option>
+                                                            <option value="BRR">Brazil Real</option>
+                                                            <option value="BGL">Bulgaria Lev</option>
+                                                            <option value="CAD">Canada Dollars</option>
+                                                            <option value="CLP">Chile Pesos</option>
+                                                            <option value="CNY">China Yuan Renmimbi</option>
+                                                            <option value="CYP">Cyprus Pounds</option>
+                                                            <option value="CSK">Czech Republic Koruna</option>
+                                                            <option value="DKK">Denmark Kroner</option>
+                                                            <option value="NLG">Dutch Guilders</option>
+                                                            <option value="XCD">Eastern Caribbean Dollars</option>
+                                                            <option value="EGP">Egypt Pounds</option>
+                                                            <option value="FJD">Fiji Dollars</option>
+                                                            <option value="FIM">Finland Markka</option>
+                                                            <option value="FRF">France Francs</option>
+                                                            <option value="DEM">Germany Deutsche Marks</option>
+                                                            <option value="XAU">Gold Ounces</option>
+                                                            <option value="GRD">Greece Drachmas</option>
+                                                            <option value="HKD">Hong Kong Dollars</option>
+                                                            <option value="HUF">Hungary Forint</option>
+                                                            <option value="ISK">Iceland Krona</option>
+                                                            <option value="INR">India Rupees</option>
+                                                            <option value="IDR">Indonesia Rupiah</option>
+                                                            <option value="IEP">Ireland Punt</option>
+                                                            <option value="ILS">Israel New Shekels</option>
+                                                            <option value="ITL">Italy Lira</option>
+                                                            <option value="JMD">Jamaica Dollars</option>
+                                                            <option value="JPY">Japan Yen</option>
+                                                            <option value="JOD">Jordan Dinar</option>
+                                                            <option value="KRW">Korea (South) Won</option>
+                                                            <option value="LBP">Lebanon Pounds</option>
+                                                            <option value="LUF">Luxembourg Francs</option>
+                                                            <option value="MYR">Malaysia Ringgit</option>
+                                                            <option value="MXP">Mexico Pesos</option>
+                                                            <option value="NLG">Netherlands Guilders</option>
+                                                            <option value="NZD">New Zealand Dollars</option>
+                                                            <option value="NOK">Norway Kroner</option>
+                                                            <option value="PKR">Pakistan Rupees</option>
+                                                            <option value="XPD">Palladium Ounces</option>
+                                                            <option value="PHP">Philippines Pesos</option>
+                                                            <option value="XPT">Platinum Ounces</option>
+                                                            <option value="PLZ">Poland Zloty</option>
+                                                            <option value="PTE">Portugal Escudo</option>
+                                                            <option value="ROL">Romania Leu</option>
+                                                            <option value="RUR">Russia Rubles</option>
+                                                            <option value="SAR">Saudi Arabia Riyal</option>
+                                                            <option value="XAG">Silver Ounces</option>
+                                                            <option value="SGD">Singapore Dollars</option>
+                                                            <option value="SKK">Slovakia Koruna</option>
+                                                            <option value="ZAR">South Africa Rand</option>
+                                                            <option value="KRW">South Korea Won</option>
+                                                            <option value="ESP">Spain Pesetas</option>
+                                                            <option value="XDR">Special Drawing Right (IMF)</option>
+                                                            <option value="SDD">Sudan Dinar</option>
+                                                            <option value="SEK">Sweden Krona</option>
+                                                            <option value="CHF">Switzerland Francs</option>
+                                                            <option value="TWD">Taiwan Dollars</option>
+                                                            <option value="THB">Thailand Baht</option>
+                                                            <option value="TTD">Trinidad and Tobago Dollars</option>
+                                                            <option value="TRL">Turkey Lira</option>
+                                                            <option value="VEB">Venezuela Bolivar</option>
+                                                            <option value="ZMK">Zambia Kwacha</option>
+                                                            <option value="EUR">Euro</option>
+                                                            <option value="XCD">Eastern Caribbean Dollars</option>
+                                                            <option value="XDR">Special Drawing Right (IMF)</option>
+                                                            <option value="XAG">Silver Ounces</option>
+                                                            <option value="XAU">Gold Ounces</option>
+                                                            <option value="XPD">Palladium Ounces</option>
+                                                            <option value="XPT">Platinum Ounces</option>
+                                                        </select>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>
+                                                        <select id="country" class="form-control form-control-lg" name="country" >
+                                                            <option select="selected">Select Language</option>
+                                                            <option>English</option>
+                                                            <option>Germen</option>
+                                                            <option>Spanish</option>
+                                                            <option>Hindi</option>
+                                                        </select>    
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                     <label>
+                                                        <select id="country" class="form-control form-control-lg" name="country">
+                                                            <option select="selected">Select Timezone</option>
+                                                            <option timeZoneId="1" gmtAdjustment="GMT-12:00" useDaylightTime="0" value="-12">(GMT-12:00) International Date Line West</option>
+    <option timeZoneId="2" gmtAdjustment="GMT-11:00" useDaylightTime="0" value="-11">(GMT-11:00) Midway Island, Samoa</option>
+    <option timeZoneId="3" gmtAdjustment="GMT-10:00" useDaylightTime="0" value="-10">(GMT-10:00) Hawaii</option>
+    <option timeZoneId="4" gmtAdjustment="GMT-09:00" useDaylightTime="1" value="-9">(GMT-09:00) Alaska</option>
+    <option timeZoneId="5" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
+    <option timeZoneId="6" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Tijuana, Baja California</option>
+    <option timeZoneId="7" gmtAdjustment="GMT-07:00" useDaylightTime="0" value="-7">(GMT-07:00) Arizona</option>
+    <option timeZoneId="8" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+    <option timeZoneId="9" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
+    <option timeZoneId="10" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Central America</option>
+    <option timeZoneId="11" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Central Time (US & Canada)</option>
+    <option timeZoneId="12" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
+    <option timeZoneId="13" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Saskatchewan</option>
+    <option timeZoneId="14" gmtAdjustment="GMT-05:00" useDaylightTime="0" value="-5">(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
+    <option timeZoneId="15" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
+    <option timeZoneId="16" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Indiana (East)</option>
+    <option timeZoneId="17" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
+    <option timeZoneId="18" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Caracas, La Paz</option>
+    <option timeZoneId="19" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Manaus</option>
+    <option timeZoneId="20" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Santiago</option>
+    <option timeZoneId="21" gmtAdjustment="GMT-03:30" useDaylightTime="1" value="-3.5">(GMT-03:30) Newfoundland</option>
+    <option timeZoneId="22" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Brasilia</option>
+    <option timeZoneId="23" gmtAdjustment="GMT-03:00" useDaylightTime="0" value="-3">(GMT-03:00) Buenos Aires, Georgetown</option>
+    <option timeZoneId="24" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Greenland</option>
+    <option timeZoneId="25" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Montevideo</option>
+    <option timeZoneId="26" gmtAdjustment="GMT-02:00" useDaylightTime="1" value="-2">(GMT-02:00) Mid-Atlantic</option>
+    <option timeZoneId="27" gmtAdjustment="GMT-01:00" useDaylightTime="0" value="-1">(GMT-01:00) Cape Verde Is.</option>
+    <option timeZoneId="28" gmtAdjustment="GMT-01:00" useDaylightTime="1" value="-1">(GMT-01:00) Azores</option>
+    <option timeZoneId="29" gmtAdjustment="GMT+00:00" useDaylightTime="0" value="0">(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
+    <option timeZoneId="30" gmtAdjustment="GMT+00:00" useDaylightTime="1" value="0">(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
+    <option timeZoneId="31" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+    <option timeZoneId="32" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+    <option timeZoneId="33" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+    <option timeZoneId="34" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+    <option timeZoneId="35" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) West Central Africa</option>
+    <option timeZoneId="36" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Amman</option>
+    <option timeZoneId="37" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Athens, Bucharest, Istanbul</option>
+    <option timeZoneId="38" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Beirut</option>
+    <option timeZoneId="39" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Cairo</option>
+    <option timeZoneId="40" gmtAdjustment="GMT+02:00" useDaylightTime="0" value="2">(GMT+02:00) Harare, Pretoria</option>
+    <option timeZoneId="41" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+    <option timeZoneId="42" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Jerusalem</option>
+    <option timeZoneId="43" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Minsk</option>
+    <option timeZoneId="44" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Windhoek</option>
+    <option timeZoneId="45" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
+    <option timeZoneId="46" gmtAdjustment="GMT+03:00" useDaylightTime="1" value="3">(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
+    <option timeZoneId="47" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Nairobi</option>
+    <option timeZoneId="48" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Tbilisi</option>
+    <option timeZoneId="49" gmtAdjustment="GMT+03:30" useDaylightTime="1" value="3.5">(GMT+03:30) Tehran</option>
+    <option timeZoneId="50" gmtAdjustment="GMT+04:00" useDaylightTime="0" value="4">(GMT+04:00) Abu Dhabi, Muscat</option>
+    <option timeZoneId="51" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Baku</option>
+    <option timeZoneId="52" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Yerevan</option>
+    <option timeZoneId="53" gmtAdjustment="GMT+04:30" useDaylightTime="0" value="4.5">(GMT+04:30) Kabul</option>
+    <option timeZoneId="54" gmtAdjustment="GMT+05:00" useDaylightTime="1" value="5">(GMT+05:00) Yekaterinburg</option>
+    <option timeZoneId="55" gmtAdjustment="GMT+05:00" useDaylightTime="0" value="5">(GMT+05:00) Islamabad, Karachi, Tashkent</option>
+    <option timeZoneId="56" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Sri Jayawardenapura</option>
+    <option timeZoneId="57" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+    <option timeZoneId="58" gmtAdjustment="GMT+05:45" useDaylightTime="0" value="5.75">(GMT+05:45) Kathmandu</option>
+    <option timeZoneId="59" gmtAdjustment="GMT+06:00" useDaylightTime="1" value="6">(GMT+06:00) Almaty, Novosibirsk</option>
+    <option timeZoneId="60" gmtAdjustment="GMT+06:00" useDaylightTime="0" value="6">(GMT+06:00) Astana, Dhaka</option>
+    <option timeZoneId="61" gmtAdjustment="GMT+06:30" useDaylightTime="0" value="6.5">(GMT+06:30) Yangon (Rangoon)</option>
+    <option timeZoneId="62" gmtAdjustment="GMT+07:00" useDaylightTime="0" value="7">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+    <option timeZoneId="63" gmtAdjustment="GMT+07:00" useDaylightTime="1" value="7">(GMT+07:00) Krasnoyarsk</option>
+    <option timeZoneId="64" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+    <option timeZoneId="65" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Kuala Lumpur, Singapore</option>
+    <option timeZoneId="66" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+    <option timeZoneId="67" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Perth</option>
+    <option timeZoneId="68" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Taipei</option>
+    <option timeZoneId="69" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+    <option timeZoneId="70" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Seoul</option>
+    <option timeZoneId="71" gmtAdjustment="GMT+09:00" useDaylightTime="1" value="9">(GMT+09:00) Yakutsk</option>
+    <option timeZoneId="72" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Adelaide</option>
+    <option timeZoneId="73" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Darwin</option>
+    <option timeZoneId="74" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Brisbane</option>
+    <option timeZoneId="75" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Canberra, Melbourne, Sydney</option>
+    <option timeZoneId="76" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Hobart</option>
+    <option timeZoneId="77" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Guam, Port Moresby</option>
+    <option timeZoneId="78" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Vladivostok</option>
+    <option timeZoneId="79" gmtAdjustment="GMT+11:00" useDaylightTime="1" value="11">(GMT+11:00) Magadan, Solomon Is., New Caledonia</option>
+    <option timeZoneId="80" gmtAdjustment="GMT+12:00" useDaylightTime="1" value="12">(GMT+12:00) Auckland, Wellington</option>
+    <option timeZoneId="81" gmtAdjustment="GMT+12:00" useDaylightTime="0" value="12">(GMT+12:00) Fiji, Kamchatka, Marshall Is.</option>
+    <option timeZoneId="82" gmtAdjustment="GMT+13:00" useDaylightTime="0" value="13">(GMT+13:00) Nuku'alofa</option>
+                                                        </select>    
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-12 mt-2">
+                                                <h4>Do you charge salestax?</h4>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-5">
+                                                <label for="sales_tax_yes" data-toggle="collapse" data-target="#sales_tax_yes" data-parent="#checkoutA">
+                                                    <input type="radio" name="salestax" value="yes" id="sales_tax_yes" checked="">
+                                                    <span class="font--secondary">Yes</span>
+                                                </label>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-3">
+                                                <label for="sales_tax_no" class="collapsed" data-toggle="collapse" data-target="#sales_tax_no" data-parent="#checkoutA">
+                                                    <input type="radio" name="salestax" value="no" id="sales_tax_no">
+                                                    <span class="font--secondary">No</span>
+                                                </label>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group ">
+                                                    <label>
+                                                        <select id="country" class="form-control form-control-lg" name="country">
+                                                            <option select="selected">Tax Type</option>
+                                                            <option select="selected">Sales Tax</option>
+                                                        </select>    
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-6">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">7.25<em>%</em></span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 6 -->
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group haslabel">
+                                                    <label>
+                                                        <input type="text" name="checkoutFirstName" class="form-control" required="" aria-required="true">
+                                                        <span class="tiny-label">Tax is excluded in prices</span>
+                                                    </label>
+                                                </div>
+                                            </div> <!-- col sm 12 -->
+
+
+                                        </div> <!-- row -->
+                                    </div> <!-- card body -->
+                                </div> <!-- card --> 
+                            </div> <!-- col 6 right side -->    
+                        </div> <!-- main row -->                        
+                    </form>
+                </div>
+                <!-- Checkout Form End -->
+            </div>
+            
+            <div class="process-wrapper mb-4 pb-4">
+                <div class="container">
+                    <h1 class="h4 mt-4 pt-4 mb-0">Thankyou for making Your Choice</h4>
+                    <h1 class="h2 mt-2">Setting up your account now</h1>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">100% Complete (success)</span>
+                      </div>
+                    </div> <!-- progress -->
+                    <div class="row account-process">
+                        <div class="col-sm-3">
+                            <h3>Setting Up Personal Info</h3>
+                            <ul>
+                                <li>Registering your name</li>
+                                <li>Entering store's name </li>
+                                <li>Creating employees</li>
+                                <li>Setting roles and permissions</li>
+                            </ul>
+                        </div> <!-- col 3 -->
+                        <div class="col-sm-3">
+                            <h3>Configuring Inventory</h3>
+                            <ul>
+                                <li>Registering your name</li>
+                                <li>Entering store's name </li>
+                                <li>Creating employees</li>
+                                <li>Setting roles and permissions</li>
+                            </ul>
+                        </div> <!-- col 3 -->
+                        <div class="col-sm-3">
+                            <h3>Activating Soint of Sale</h3>
+                            <ul>
+                                <li>Registering your name</li>
+                                <li>Entering store's name </li>
+                                <li>Creating employees</li>
+                                <li>Setting roles and permissions</li>
+                            </ul>
+                        </div> <!-- col 3 -->
+                        <div class="col-sm-3">
+                            <h3>Rounding Up</h3>
+                            <ul>
+                                <li>Enabling Configuration</li>
+                                <li>Entering store's name </li>
+                                <li>Creating employees</li>
+                                <li>Setting roles and permissions</li>
+                            </ul>
+                        </div> <!-- col 3 -->
+                    </div> <!-- account-process -->
+                </div> <!-- container -->
+            </div> <!-- account process wrapper -->
+
+        </div>
+        <!-- Checkout Section End -->
+
+        <!-- Call To Action Section Start -->
+        <div class="cta--section cta--section-signup  bg--color-darkgray py-4">
+            <div class="container text-center py-4">
+                <!-- Call To Action Content Start -->
+                <h2 >Account Setup Complete</h2>
+                <div class="cta--btn">
+                    <a href="index.html#banner" class="btn btn-default btn-lg">Get Free Estimate</a>
+                </div>
+                <!-- Call To Action Content Start -->
+            </div> <!-- container -->
+        </div> <!-- cta-section  -->
+        <!-- Call To Action Section End -->
+
+
+        <!-- Footer Section Start -->
+        <div class="footer--section bg--color-dark">
+            <div class="footer--copyright-border"></div>
+
+            <div class="container bg--overlay">
+                <div class="row reset--gutter">
+                    <div class="col-md-3 bg--color-theme bg--overlay">
+                        <!-- Footer About Start -->
+                        <div class="footer--about">
+                            <div class="logo">
+                                <img src="img/footer-logo.png" alt="" data-rjs="2">
+                            </div>
+
+                            <div class="content">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have available, its  really but the majority to use a passage rassing hidden.</p>
+                            </div>
+
+                            <div class="link">
+                                <a href="about.html">Read More<i class="fa flm fa-angle-double-right"></i></a>
+                            </div>
+
+                            <div class="info">
+                                <ul class="nav">
+                                    <li class="fa-home">House #896, East Sheprapara Beside  of Hazi Asraf Ali School, Dhaka, Bangladesh.</li>
+
+                                    <li class="fa-envelope"><a href="mailto:you@yourmail.com">you@yourmail.com</a>, <a href="mailto:you@yourmail.com">you@yourmail.com</a></li>
+
+                                    <li class="fa-phone-square"><a href="mailto:+055997766554412">+055997766554412</a>, <a href="mailto:005594765243">005594765243</a></li>
+
+                                    <li class="fa-clock-o">Monday - Satarday (09 am to 08 pm) <span>(Sunday Closed)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer About End -->
+                    </div>
+
+                    <div class="col-md-9">
+                        <!-- Footer Widgets Start -->
+                        <div class="footer--widgets row">
+                            <!-- Footer Widget Start -->
+                            <div class="footer--widget col-md-4">
+                                <div class="widget--title">
+                                    <h2 class="h4">Our Services</h2>
+                                </div>
+
+                                <!-- Links Wdiget Start -->
+                                <div class="links--widget">
+                                    <ul class="nav">
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>PC and Mac Repair</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>iPad and Smartphone Repair</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Camera and Lens Repair</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Printer and Scanner Repair</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Television and LCD/LED Display Repair</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Electronics Accessories Sales and Repair</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Links Wdiget End -->
+                            </div>
+                            <!-- Footer Widget End -->
+
+                            <!-- Footer Widget Start -->
+                            <div class="footer--widget col-md-4">
+                                <div class="widget--title">
+                                    <h2 class="h4">Recent Posts</h2>
+                                </div>
+
+                                <!-- Recent Posts Widget Start -->
+                                <div class="recent-posts--widget">
+                                    <ul class="nav">
+                                        <li class="clearfix">
+                                            <div class="img">
+                                                <a href="blog-details.html"><img src="img/blog-img/recent-post-01.jpg" alt="" data-rjs="2"></a>
+                                            </div>
+
+                                            <div class="content">
+                                                <h3 class="h6"><a href="blog-details.html">The Summer Sppecial Day Out</a></h3>
+                                                <p>Jan 19 2017</p>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="img">
+                                                <a href="blog-details.html"><img src="img/blog-img/recent-post-02.jpg" alt="" data-rjs="2"></a>
+                                            </div>
+
+                                            <div class="content">
+                                                <h3 class="h6"><a href="blog-details.html">The Post Writen By Saju</a></h3>
+                                                <p>Jan 19 2017</p>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <div class="img">
+                                                <a href="blog-details.html"><img src="img/blog-img/recent-post-03.jpg" alt="" data-rjs="2"></a>
+                                            </div>
+
+                                            <div class="content">
+                                                <h3 class="h6"><a href="blog-details.html">Drop &amp; Drug Your Tagline Here</a></h3>
+                                                <p>Jan 19 2017</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Recent Posts Widget End -->
+                            </div>
+                            <!-- Footer Widget End -->
+
+                            <!-- Footer Widget Start -->
+                            <div class="footer--widget col-md-4">
+                                <div class="widget--title">
+                                    <h2 class="h4">Sign Up For Newsletter</h2>
+                                </div>
+
+                                <!-- Subscribe Widget Start -->
+                                <div class="subscribe--widget" data-form-validation="true">
+                                    <p>Sign Up Our Newsletter to Get Notification Our New Services</p>
+
+                                    <form action="https://themelooks.us13.list-manage.com/subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                                        <div class="input-group">
+                                            <input type="email" name="EMAIL" class="form-control" placeholder="E-mail Address" required>
+                                            
+                                            <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-default active"><i class="fa fa-send"></i></button>
+                                            </span>
+                                        </div>
+                                    </form>
+
+                                    <div class="social">
+                                        <h3 class="h6">Find Us On</h3>
+
+                                        <ul class="nav">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Subscribe Widget End -->
+                            </div>
+                            <!-- Footer Widget End -->
+                        </div>
+                        <!-- Footer Widgets End -->
+
+                        <!-- Footer Copyright Start -->
+                        <div class="footer--copyright font--secondary clearfix">
+                            <p class="float--left">&copy; Copyright 2017 | All Rights Reserved</p>
+                            <p class="float--right"><a href="#">Quick Fix</a> by Themelooks</p>
+                        </div>
+                        <!-- Footer Copyright End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section End -->
+
+        <!-- Back To Top Button Start -->
+        <div class="back-to-top-btn">
+            <a href="#" class="btn btn-default active"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Back To Top Button End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- ==== Bootstrap ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== jQuery FakeLoader Plugin ==== -->
+    <script src="js/fakeLoader.min.js"></script>
+
+    <!-- ==== jQuery Sticky Plugin ==== -->
+    <script src="js/jquery.sticky.min.js"></script>
+
+    <!-- ==== jQuery Magnific Popup Plugin ==== -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- ==== jQuery Directional Hover Plugin ==== -->
+    <script src="js/jquery.directional-hover.min.js"></script>
+
+    <!-- ==== jQuery Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== jQuery Form Plugin ==== -->
+    <script src="js/jquery.form.min.js"></script>
+
+    <!-- ==== jQuery Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== jQuery CounterUp Plugin ==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
 </body>
-</html>			
+</html>

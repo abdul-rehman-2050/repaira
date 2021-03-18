@@ -1,0 +1,190 @@
+/*
+
+[Theme Color Stylesheet]
+
+Project: QuickFix - Multipurpose Servicing and Repairing HTML Template
+Version: 1.3
+Author : themelooks.com
+
+*/
+
+/*------------------------------------*\
+    COLOR
+\*------------------------------------*/
+a:hover, .btn-link:hover,
+a:focus, .btn-link:focus,
+.text--primary,
+.pager li em,
+.pager li a[aria-describedby],
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover,
+.nav-links--widget .nav > li.active > a,
+.search--widget .input-group-addon button,
+.categories--widget ul li:hover,
+.header--navbar-top-info .icon,
+.header--nav-links .megamenu > .dropdown-menu .nav > li.active > a,
+.header--nav-search .dropdown-toggle,
+.page--breadcrumb .breadcrumb > li > span,
+.banner--content h1 strong,
+.banner--form .h4,
+.about--content .h2 span,
+.service--item:hover .h3 a,
+.service--item.active .h3 a,
+.extra-service--item:hover .extra-service--info .title .h4 a,
+.gallery--filter-nav .nav > li:hover,
+.gallery--filter-nav .nav > li.active,
+.gallery--info .btn-groups .btn:hover,
+.gallery--nav a[aria-describedby],
+.expert--members-nav button:hover,
+.expert--members-nav a[aria-describedby],
+.product--item-img-info .btn-groups .btn:hover,
+.product--item-img-info .btn-groups .btn:focus,
+.product--item-img-info .btn-groups .tooltip-inner,
+.product--item-info .price,
+.product--single-summery .title .btn-group a[aria-describedby],
+.product--single-summery .in-stock,
+.product--single-summery .actions .quantity .ui-spinner-button:active:before,
+.product--details-tab-nav .nav > li.active > a,
+.review--form .rating .br-widget a.br-selected:after,
+.cart--items .table tbody tr td .quantity .ui-spinner-button:active:before,
+.cart--total .table tr:last-child td,
+.checkout--info > p a,
+.contact--content ul li:before,
+.contact--content ul li p span,
+.f0f--section .footer > a,
+.footer--copyright a {
+    color: #ff5252;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.bg--color-theme,
+.bg--overlay:before,
+.pager li .tooltip-inner,
+.countdown--timer ul li strong,
+.nav-links--widget .h4:before,
+.cart--widget ul li .remove:hover,
+.header--navbar .navbar-toggle,
+.header--nav-links > li > a:hover,
+.header--nav-links > li.active > a,
+.header--nav-links > li.open > a,
+.header--nav-links > li.open > a:hover,
+.header--nav-links > li.open > a:focus,
+.header--nav-links .dropdown-menu > li > a:hover,
+.header--nav-links .dropdown-menu > li > a:focus,
+.header--nav-links .dropdown-menu > li.active > a,
+.banner--slider .owl-dot.active,
+.service--item:hover .dot:before,
+.service--item.active .dot:before,
+.service-single--content .title:before,
+.gallery--section .title:before,
+.gallery--nav .tooltip-inner,
+.gallery-single--content .title:before,
+.pricing--item:hover .pricing--footer .btn,
+.pricing--item.active .pricing--footer .btn,
+.pricing-single--item .title:before,
+.expert--members-nav .tooltip-inner,
+.post--item.sticky .post--footer .btn-default,
+.comment--title:before,
+.product--single-summery .title .btn-group .tooltip-inner,
+.product--details-tab-nav .nav > li.active > a:before,
+.product--details-item .title:before,
+.related-products-title:before,
+.cart--items .table tbody tr td .remove:hover,
+.cart--title:before,
+.checkout--form-title:before,
+.contact--title:before,
+.footer--widget .widget--title .h4:before {
+    background-color: #ff5252;
+}
+
+::-moz-selection {
+    background-color: #ff5252;
+}
+
+::selection {
+    background-color: #ff5252;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+.form-control:focus,
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.nav-links--widget .nav > li > a:hover,
+.nav-links--widget .nav > li > a:focus,
+.nav-links--widget .nav > li.active > a,
+.subscribe--widget .form-control,
+.cart--widget ul li .remove:hover,
+.header--navbar .navbar-toggle,
+.header--nav-links > li > a:hover,
+.header--nav-links > li.active > a,
+.header--nav-links > li.open > a,
+.header--nav-links > li.open > a:hover,
+.header--nav-links > li.open > a:focus,
+.header--nav-links .dropdown-menu > li > a:hover,
+.header--nav-links .dropdown-menu > li > a:focus,
+.header--nav-links .dropdown-menu > li.active > a,
+.megamenu-img:before,
+.banner--slider .owl-dot.active,
+.banner--form .form-control:focus,
+.appointment--form .form-control:focus,
+.service--item:hover .dot,
+.service--item.active .dot,
+.extra-service--item:hover,
+.pricing--item:hover,
+.pricing--item.active,
+.post--item.sticky,
+.product--single-gallery .thumbnails .owl-item a.active:before,
+.product--single-summery .actions .buttons .btn:not(.active):hover,
+.product--single-summery .actions .buttons .btn:not(.active):focus,
+.cart--items .table tbody tr:hover td img,
+.cart--items .table tbody tr td .remove:hover,
+.cart--coupon .input-group .form-control,
+.contact--map,
+.cta--content {
+    border-color: #ff5252;
+}
+
+.pager li .tooltip .tooltip-arrow,
+.gallery--nav .tooltip .tooltip-arrow,
+.expert--members-nav .tooltip .tooltip-arrow,
+.product--single-summery .title .btn-group .tooltip .tooltip-arrow,
+.checkout--info > p {
+    border-top-color: #ff5252;
+}
+
+.about--content .h2 {
+    border-bottom-color: #ff5252;
+}
