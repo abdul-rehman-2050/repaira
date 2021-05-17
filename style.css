@@ -7229,14 +7229,17 @@ body.isScrolling .back-to-top-btn {
 .initial-setup--form .section-title {
         background: #a2a2a2;
     padding: 10px;
-    margin-bottom: 18px;
+    margin-bottom: 0px;
     color: #f9fafb;
 }
 
 .initial-setup--form .setup-step {
-    background: #f1f1f1;
-    margin-top: 20px;
-    padding-bottom: 20px;
+       margin-top: 9px;
+    padding-bottom: 13px;
+}
+.initial-setup--form .setup-step div.content-area {
+   background: #f1f1f1;
+   overflow: hidden;
 }
 
 .setup-step input[type="checkbox"] { margin-right: 10px; }

@@ -1,0 +1,118 @@
+.bg-lite-gray {
+	    background: #f7f7f7;
+}
+.strong { font-weight: bold; }
+.gray-tabs .nav-link {
+	border: 1px solid #fff;
+	color:#fff;
+	background-color: gray;
+}
+.gray-tabs .nav-link.active {
+	 background: #F97300 !important;
+	 color:#fff !important;
+	 border: 1px solid #fff !important;
+
+}
+.bl-litegray {
+	border-left: 1px solid #f5f5f5;
+}
+
+.page-container .main-content {
+    padding: calc(70px + 10px) 10px 25px;
+    min-height: calc(100vh - 70px);
+}
+
+
+.page-repaira-pos {
+	padding: 0 15px;	
+}
+.row-entity-grids {
+	    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.entity-single {
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 150px;
+    border: 1px solid #bfbfbf;
+    width: calc(33.33% - 6px);
+    margin: 3px;
+    cursor: pointer;
+}
+.entity-single:hover , 
+.entity-single:focus  {
+ box-shadow: 0px 0px 6px inset lightgrey
+}
+.entity-single--add {
+	background-color: #8bc34a;
+    color: #fff;
+}
+.entity-single [data-toggle="dropdown"]{
+	color: #000;
+}
+.entity_title {
+	margin-top: 10px;
+}
+
+.dropdown2 {
+
+	position: absolute;right: 10px; top: 1px;
+}
+.entity-single .dropdown2 { display: none; }
+.entity-single:hover .dropdown2 , 
+.entity-single:focus .dropdown2 {
+	display: block;
+}
+
+
+
+/*bottom actions*/
+
+.rep-bottom-actions {
+	display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.rep-bottom-actions > div {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bottom-actions__left { width: 75%;}
+.bottom-actions__right { width: 25%;  flex-direction: column; }
+
+.rep-bottom-actions .btn {
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70px;
+    border:none;
+    width: calc(33.33% - 6px);
+    margin: 3px;
+    padding: 0px 5px;
+    background-color: #293846;
+    color: #fff;
+    cursor: pointer;
+}
+.rep-bottom-actions .btn i { margin-bottom: 6px; font-size: 18px;}
+
+.bottom-actions__right { width:  25%; }
+.bottom-actions__right .btn  { width:  100%; }
+
+.rep-bottom-actions .btn-success {
+	background-color: 	#43c35e;
+}
+.rep-bottom-actions .btn-danger {
+    background-color: #de4436;
+    border-color: #de4436;
+}
+.rep-bottom-actions .btn-info {
+	background-color: #03a9f4;
+}
