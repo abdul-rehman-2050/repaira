@@ -19220,9 +19220,9 @@ div.is-invalid {
 
 .header .logo  {
     width: 230px;
-    background: #f97300;
+    background: #f7f7f7;
 }
 .logo-dark img{
-	max-height: 60px;
-    margin-top: 7px;
+	max-height: 65px;
+    margin-top: 4px;
 }

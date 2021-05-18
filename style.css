@@ -2409,12 +2409,12 @@ a:active, .btn-link:active {
 
 .banner--content h1 {
     margin-bottom: 20px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .banner--content h1 strong {
     color: #f69323;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .banner--content p + .btn {
@@ -7311,3 +7311,6 @@ body.isScrolling .back-to-top-btn {
     background: #f97300
 }
 
+.header--section {
+  background-color: #f7f7f7;
+}
