@@ -7323,3 +7323,10 @@ padding-right: 15px;
 .header--section {
   background-color: #f7f7f7;
 }
+
+
+
+.appointment--items img {
+  height:200px;
+  width: 100%; 
+}
