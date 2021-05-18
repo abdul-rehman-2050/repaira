@@ -7227,15 +7227,16 @@ body.isScrolling .back-to-top-btn {
 }
 
 .initial-setup--form .section-title {
-        background: #a2a2a2;
-    padding: 10px;
+    background: #a2a2a2;
+    padding: 4px 10px;
     margin-bottom: 0px;
     color: #f9fafb;
 }
 
 .initial-setup--form .setup-step {
-       margin-top: 9px;
+     margin-top: 0px;
     padding-bottom: 13px;
+    padding: 15px 15px 0px 15px;
 }
 .initial-setup--form .setup-step div.content-area {
    background: #f1f1f1;
@@ -7245,12 +7246,20 @@ body.isScrolling .back-to-top-btn {
 .setup-step input[type="checkbox"] { margin-right: 10px; }
 
 
-
+.step_biz_info {
+  width: 100%;
+padding-right: 15px;
+    padding-left: 15px;
+}
 
 #progressbar {
-    margin-bottom: 30px;
+   margin-bottom: 30px;
     overflow: hidden;
-    color: lightgrey
+    color: lightgrey;
+    padding-left: 0px;
+    max-width: 506px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #progressbar .active {
@@ -7260,7 +7269,7 @@ body.isScrolling .back-to-top-btn {
 #progressbar li {
     list-style-type: none;
     font-size: 12px;
-    width: 25%;
+    width: 20%;
     float: left;
     position: relative
 }

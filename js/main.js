@@ -630,6 +630,9 @@ $(document).ready(function () {
     
         $('#reg_form').validate({
             rules: {    
+                pos_esti_time:{
+                    required: true
+                },
                 checkoutFullName: {
                     required: true
                 },
@@ -639,6 +642,7 @@ $(document).ready(function () {
                 checkoutWorkEamil: {
                     required: true
                 }
+
             },
             messages: {
                 checkoutFullName: "Please specify a file",
@@ -648,7 +652,7 @@ $(document).ready(function () {
         });
 
         if (!jQuery('#reg_form').valid()) {
-         alert('no no');
+         alert('Please fill the required fields');
            return false;
         }
         
@@ -702,7 +706,7 @@ next_fs = jQuery(this).parents('fieldset').next();
         animating = true;
 
         current_fs = jQuery(this).parents('fieldset');
-previous_fs = jQuery(this).parents('fieldset').prev();
+        previous_fs = jQuery(this).parents('fieldset').prev();
 
         //de-activate current step on progressbar
         $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
