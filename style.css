@@ -7216,6 +7216,8 @@ body.isScrolling .back-to-top-btn {
     flex-flow:column;
     text-align: center;
     border: 1px solid #fff;
+	height: 130px;
+	width: 130px;
 }
 .repair-item.added {
     border-color:#f97300 
